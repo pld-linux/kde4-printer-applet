@@ -20,6 +20,7 @@ Requires:	kde4-kdebase-workspace >= %{version}
 Requires:	python-PyKDE4
 Requires:	python-pycups
 Requires:	system-config-printer
+Obsoletes:	kde4-kdeutils-printer-applet
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
