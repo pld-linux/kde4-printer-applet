@@ -40,6 +40,7 @@ aktualne zadania drukarki, ostrzezenia i bledy.
 install -d build
 cd build
 %cmake \
+	-DINSTALL_PRINTER_APPLET=TRUE \
 	..
 %{__make}
 
