@@ -5,16 +5,18 @@
 
 Summary:	K Desktop Environment - printer applet
 Name:		kde4-printer-applet
-Version:	4.8.0
+Version:	4.9.0
 Release:	1
 License:	GPL
 Group:		X11/Applications
 #Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-Source0:	http://ixion.pld-linux.org/~arekm/kde/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	7fb821b0052696c9dc7dcc0360265674
+Source0:	http://ixion.pld-linux.org/~arekm/kde/%{orgname}-%{version}.tar.xz
+# Source0-md5:	d70712870f4a8321f8f0fa30d48a6947
 URL:		http://www.kde.org/
+BuildRequires:	automoc4
 BuildRequires:	kde4-kdebase-devel >= %{version}
 BuildRequires:	python-pycups
+BuildRequires:	qt4-build
 BuildRequires:	system-config-printer
 Requires:	kde4-kdebase-workspace >= %{version}
 Requires:	python-PyKDE4
