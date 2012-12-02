@@ -5,13 +5,13 @@
 
 Summary:	K Desktop Environment - printer applet
 Name:		kde4-printer-applet
-Version:	4.9.1
+Version:	4.9.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
 #Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
 Source0:	http://ixion.pld-linux.org/~arekm/kde/%{orgname}-%{version}.tar.xz
-# Source0-md5:	6ceef4a6b679b918315b4cabfa4f0126
+# Source0-md5:	8bf59216d562ec9476d889b93af1be0e
 URL:		http://www.kde.org/
 BuildRequires:	automoc4
 BuildRequires:	kde4-kdebase-devel >= %{version}
