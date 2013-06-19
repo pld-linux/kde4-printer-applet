@@ -5,7 +5,7 @@
 
 Summary:	K Desktop Environment - printer applet
 Name:		kde4-printer-applet
-Version:	4.9.4
+Version:	4.10.4
 Release:	1
 License:	GPL
 Group:		X11/Applications
