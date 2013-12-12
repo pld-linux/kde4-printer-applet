@@ -2,6 +2,7 @@
 %define		_state		stable
 %define		orgname		printer-applet
 %define		qtver		4.8.0
+%define		kdeworkspacever	4.11.0
 
 Summary:	K Desktop Environment - printer applet
 Name:		kde4-printer-applet
@@ -18,7 +19,7 @@ BuildRequires:	kde4-kdebase-devel >= %{version}
 BuildRequires:	python-pycups
 BuildRequires:	qt4-build
 BuildRequires:	system-config-printer
-Requires:	kde4-kdebase-workspace >= %{version}
+Requires:	kde4-kdebase-workspace >= %{kdeworkspacever}
 Requires:	python-PyKDE4
 Requires:	python-pycups
 Requires:	system-config-printer
